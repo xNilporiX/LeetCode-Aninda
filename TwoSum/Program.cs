@@ -21,6 +21,13 @@ using System.Collections.Generic;
 
 public class MySolution
 {
+    /// <summary>
+    /// My thought process was, mhmm, so we go through the array, compare the number to the next, add them up and return the result. 
+    /// While writing the solution, I was thinking, this is very inefficient but my current brain could not think of anything else. Maybe in the future, I will be better than this.
+    /// </summary>
+    /// <param name="nums"></param>
+    /// <param name="target"></param>
+    /// <returns></returns>
     public int[] TwoSum(int[] nums, int target)
     {
         int[] result = [];
@@ -39,6 +46,10 @@ public class MySolution
     }
 }
 
+/// <summary>
+/// Best solution by the LeetCode community. 
+/// This is pretty cool and I love the human brain, like how did we as a species evolve everyday. I need to do better. 
+/// </summary>
 public class BestSolution
 {
     public int[] TwoSum(int[] nums, int target)
@@ -64,7 +75,7 @@ class Program
     {
         MySolution solution = new MySolution();
 
-        int[] nums = { 2, 7, 11, 15 };
+        int[] nums = [2, 7, 11, 15];
         int target = 9;
 
         try
